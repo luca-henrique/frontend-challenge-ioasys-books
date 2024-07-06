@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sobre
 
-## Getting Started
+Estes documento README tem como objetivo fornecer as informações necessárias para realização do projeto **ioasys books**.
 
-First, run the development server:
+# 🏗 O que fazer?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Você deve criar seu projeto e subir em um repositório e ao finalizar, enviar o link do seu repositório para a nossa equipe. Lembre-se, NÃO é necessário criar um Pull Request para isso, nós iremos avaliar e retornar por email o resultado do seu teste.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 🚨 Requisitos
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Seu projeto deverá ser construído utilizando **ReactJS** ou **Angular**.
+- Seu projeto deverá ser construído utilizando o layout disponibilizado na descrição do teste.
+- A integração com a API deve ser feita respeitando todos os contratos de OAuth.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# 🕵🏻‍♂️ Itens a serem avaliados
 
-## Learn More
+- Estrutura do Projeto
+- Boas práticas da Linguagem/Framework
+- Integração com API
+- Bibliotecas utilizadas
+- Estilização dos componentes
+- Persistência de login
+- Layout responsivo
+- Friendly URL
+- Seu projeto deverá seguir tudo o que foi exigido na seção **O que desenvolver?**
 
-To learn more about Next.js, take a look at the following resources:
+# 🎁 Extra
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Esses itens não obrigatórios, porém desejados.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Testes unitários
+- SEO
+- Linter
+- Code Formater
+- Documentação de componente
 
-## Deploy on Vercel
+# 🖥 O que desenvolver?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Você deverá construir um projeto utilizando o layout proposto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Login e acesso de Usuário já registrado
+- Para ter acesso as demais APIs precisamos enviar o **authorization** no header para autorizar a requisição;
+- Listagem de Livros
+- Detalhamento do Livro
+
+# 🔗 Links e Informações Importantes
+
+## Layout
+
+- Layout e recortes disponíveis no Figma
+- https://www.figma.com/file/YXuqJUzNZcR7GveJfVWCKo/Desafio-Frontend-ioasys-books
+
+## Integração com API
+
+- A documentação da API está disponível a partir de uma página web (https://books.ioasys.com.br/api/docs/).
+
+- **Documentação:** https://books.ioasys.com.br/api/docs/
+- **Servidor:** https://books.ioasys.com.br/api/v1
+- **Usuário de Teste:** desafio@ioasys.com.br
+- **Senha de Teste:** 12341234
